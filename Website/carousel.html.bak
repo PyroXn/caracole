@@ -1,0 +1,345 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   	 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content=""/>
+       		        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        		        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	
+        <style type="text/css">
+			span.reference{
+				position:fixed;
+				left:0px;
+				bottom:0px;
+				background:#000;
+				width:100%;
+				font-size:10px;
+				line-height:20px;
+				text-align:right;
+				height:100px;
+				-moz-box-shadow:-1px 0px 10px #000;
+				-webkit-box-shadow:-1px 0px 10px #000;
+				box-shadow:-1px 0px 10px #000;
+		/* 			filter:progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=0, Strength=8); 
+    zoom: 1; */
+			}
+			span.reference a{
+				color:#aaa;
+				text-transform:uppercase;
+				text-decoration:none;
+				margin-right:10px;
+ 
+			}
+			span.reference a:hover{
+				color:#ddd;
+			}
+			.bg_img img{
+				width:100%;
+				position:absolute;
+				top:0px;
+				left:0px;
+				z-index:-1;
+			}
+			h1{
+				font-size:75px;
+				text-align:right;
+				position:absolute;
+				right:40px;
+				top:20px;
+				font-weight:normal;
+			}
+			h1 span{
+				display:block;
+				font-size:15px;
+				font-weight:bold;
+			}
+			h2{
+				position:absolute;
+				top:220px;
+				left:50px;
+				font-size:40px;
+				font-weight:normal;
+			}
+			.Style1 {
+	color: #999999;
+	font-size: 75px;
+	font-family: AvantGardeITC;
+}
+        .Style2 {color: #999999}
+.Style4 {color: #666666}
+		</style>
+		</style>
+		
+		<script type="text/javascript" src="js/stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+<style type="text/css">
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 0px solid black;
+overflow: scroll; /*leave this value alone*/
+width: 672px; /*Width of Carousel Viewer itself*/
+height: 262px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 0px; /*margin around each panel*/
+width: 672px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+</style>
+<script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:false, moveby:1, pause:6000},
+	panelbehavior: {speed:500, wraparound:true, persist:true},
+	defaultbuttons: {enable: true, moveby: 1, leftnav: ['images/scroll_l.png', 0, 150], rightnav: ['images/scroll_r.png', -18, 150]},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+
+
+    </head>
+ 
+    <body>
+		<div class="bg_img"><img src="images/bg.jpg" alt="background" /></div>
+	<!-- barre infos - s'assombrit au passage souris -->
+	<div class="barre"><img src="images/facebook.png" align="right"/>© Business 2011</div>
+
+<!-- menu -->		
+	<div class="oe_wrapper">
+			<div id="oe_overlay" class="oe_overlay"></div>
+			<ul id="oe_menu" class="oe_menu">
+				<li><a href="">Collections</a>
+					<div>
+						<ul>
+							<li class="oe_heading">Summer 2011</li>
+							<li><a href="#">Milano</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">Special Events</a></li>
+							<li><a href="#">Runway Show</a></li>
+							<li><a href="#">Overview</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Collections</li>
+							<li><a href="#">Horsea</a></li>
+							<li><a href="#">Giena</a></li>
+							<ul>
+							<li class="oe_heading">Collections</li>
+						</ul>
+							<li><a href="#">Behind the scenes</a></li>
+							<li><a href="#">Interview</a></li>
+							<li><a href="#">Photos</a></li>
+							<li><a href="#">Download</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Categories</li>
+							<li><a href="#">Bagues</a></li>
+							<li><a href="#">Colliers et pendentifs</a></li>
+							<li><a href="#">Bracelets</a></li>
+							<li><a href="#">Nature Pure</a></li>
+							<li><a href="#">Swimwear</a></li>
+							<li><a href="#">Evening</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="">Projects</a>
+					<div style="left:-111px;"><!-- -112px -->
+						<ul>
+							<li class="oe_heading">Fashion Shows</li>
+							<li><a href="#">Milano</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">Berlin</a></li>
+							<li><a href="#">New York</a></li>
+							<li><a href="#">London</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Events</li>
+							<li><a href="#">Fashion Party 2011</a></li>
+							<li><a href="#">Evening specials</a></li>
+							<li><a href="#">Fashion Day Milano</a></li>
+							<li><a href="#">Model Workshops</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Media</li>
+							<li><a href="#">Wallpapers</a></li>
+							<li><a href="#">Downloads</a></li>
+							<li><a href="#">Images</a></li>
+							<li><a href="#">Contest 2011</a></li>
+							<li><a href="#">Fashion Mania</a></li>
+							<li><a href="#">Green Earth Day</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="">Fragrances</a>
+					<div style="left:-223px;">
+						<ul class="oe_full">
+							<li class="oe_heading">Fashion Fragrances</li>
+							<li><a href="#">Deálure</a></li>
+							<li><a href="#">Violet Woman</a></li>
+							<li><a href="#">Deep Blue for Men</a></li>
+							<li><a href="#">New York, New York</a></li>
+							<li><a href="#">Illusion</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="">Events</a>
+					<div style="left:-335px;">
+						<ul>
+							<li class="oe_heading">Shows 2010</li>
+							<li><a href="#">Milano</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">Berlin</a></li>
+							<li><a href="#">New York</a></li>
+							<li><a href="#">London</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Shows 2011</li>
+							<li><a href="#">Milano</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">Berlin</a></li>
+							<li><a href="#">New York</a></li>
+							<li><a href="#">London</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Special Events</li>
+							<li><a href="#">Fashion Party 2011</a></li>
+							<li><a href="#">Fashion Countdown Party 2010</a></li>
+							<li><a href="#">Fashion Day Milano</a></li>
+							<li><a href="#">Model Workshops</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="">Stores</a>
+					<div style="left:-447px;">
+						<ul>
+							<li class="oe_heading">Europe</li>
+							<li><a href="#">Milano</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">Berlin</a></li>
+							<li><a href="#">London</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Asia</li>
+							<li><a href="#">Hong Kong</a></li>
+							<li><a href="#">Tokio</a></li>
+							<li><a href="#">New Delhi</a></li>
+							<li><a href="#">Beijing</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">United States</li>
+							<li><a href="#">New York</a></li>
+							<li><a href="#">Los Angeles</a></li>
+							<li><a href="#">Seattle</a></li>
+							<li><a href="#">Miami</a></li>
+						</ul>
+					</div>
+					<li><a href="">Stores</a>
+					<div style="left:-559px;">
+						<ul>
+							<li class="oe_heading">Europe</li>
+							<li><a href="#">Milano</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">Berlin</a></li>
+							<li><a href="#">London</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">Asia</li>
+							<li><a href="#">Hong Kong</a></li>
+							<li><a href="#">Tokio</a></li>
+							<li><a href="#">New Delhi</a></li>
+							<li><a href="#">Beijing</a></li>
+						</ul>
+						<ul>
+							<li class="oe_heading">United States</li>
+							<li><a href="#">New York</a></li>
+							<li><a href="#">Los Angeles</a></li>
+							<li><a href="#">Seattle</a></li>
+							<li><a href="#">Miami</a></li>
+						</ul>						
+					</div>
+					
+				</li>
+			</ul>	
+		</div>
+        <div>
+		
+		<!-- fin overlay -->
+ <div class="slide"><div id="mygallery" class="stepcarousel">
+ 	<!-- slider - cette partie reste claire -->
+ 	<div class="belt"> 
+<div class="panel">
+<img src="images/slide1.jpg" /></div>
+	<div class="panel">
+<img src="images/slide2.jpg" /></div>
+<div class="panel">
+<img src="images/slide3.jpg" />	
+</div></div>
+  </div>
+<!-- sous le slider -->  
+   <div class="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+   	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+   	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+   	sunt in culpa qui officia deserunt mollit anim id est laborum</div>  
+    	
+            <span class="reference">
+               			<div align="center"><img src="images/logo.jpg" /></div><div align="right">© Business 2011</div>           </span>
+		</div>
+ 
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+				var $oe_menu		= $('#oe_menu');
+				var $oe_menu_items	= $oe_menu.children('li');
+				var $oe_overlay		= $('#oe_overlay');
+ 
+                $oe_menu_items.bind('mouseenter',function(){
+					var $this = $(this);
+					$this.addClass('slided selected');
+					$this.children('div').css('z-index','9999').stop(true,true).slideDown(200,function(){
+						$oe_menu_items.not('.slided').children('div').hide();
+						$this.removeClass('slided');
+					});
+				}).bind('mouseleave',function(){
+					var $this = $(this);
+					$this.removeClass('selected').children('div').css('z-index','1');
+				});
+ 
+				$oe_menu.bind('mouseenter',function(){
+					var $this = $(this);
+					$oe_overlay.stop(true,true).fadeTo(200, 0.6);
+					$this.addClass('hovered');
+				}).bind('mouseleave',function(){
+					var $this = $(this);
+					$this.removeClass('hovered');
+					$oe_overlay.stop(true,true).fadeTo(200, 0);
+					$oe_menu_items.children('div').hide();
+				})
+            });
+        </script>
+    </body>
+</html>
