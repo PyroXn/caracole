@@ -1,0 +1,8 @@
+- Amélioration du rendu du menu : /caracole/Website/2/index.html
+- Idée pour la création du site : 
+	-	/caracole/Website/3/index.html
+	-	/caracole/Website/4/index.html
+
+- Slide avec effet sympa : /caracole/Website/nivo.html
+- Idée de menu : /caracole/Website/test.html
+	
