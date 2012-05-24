@@ -1,0 +1,110 @@
+html, body, div, img, li, form, fieldset, input, textarea, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre, table, blockquote, hr, td, tr, table {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none outside none;
+}
+
+body {
+    text-align: center;
+    background-color: #111014;
+    color: white;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 10px;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+#globaldiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1256px;
+    height: 768px;
+    margin-top: -384px;
+    margin-left: -628px;
+    text-align: left;
+
+    z-index: 1;
+}
+
+#leftblock {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 230px;
+    height: 748px;
+    background-color: black;
+}
+
+#leftblock #menuleft {
+    position: relative;
+    margin-top: 83px;
+    -margin-top: 89px;
+    padding-left: 34px;
+    font-size: 10px;
+}
+
+#leftblock h1 {
+    margin-top: 160px;
+    padding-left: 29px;
+}
+
+#leftblock ul {
+    margin-bottom: 12px;
+}
+
+#leftblock ul li {
+    line-height: 18px;
+}
+
+#leftblock li a:hover {
+    color: white;
+}
+
+#centerblock_wild {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 1022px;
+    height: 748px;
+    z-index: 1;
+}
+
+object {
+    width: 100%;
+    height: 100%;
+}
+
+#footermenu {
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 19px;
+    border-top: 1px solid #222;
+    background-color: black;
+    line-height: 19px;
+    text-align: center;
+}
+
+#footermenu ul li {
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+}
+
+#footermenu li a:hover {
+    color: white;
+}
