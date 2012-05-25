@@ -13,14 +13,15 @@ ul {
 
 body {
     text-align: center;
-    background-color: #111014;
+    background: url('fond2.jpg') #111014 no-repeat top center fixed;
+    background-size: cover;
     color: white;
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 a {
-    color: #999;
+    color: #b0a078;
     text-decoration: none;
 }
 
@@ -43,7 +44,8 @@ a {
     left: 0px;
     width: 230px;
     height: 748px;
-    background-color: black;
+    background: url(leftmenu.png) #1c0c00;
+    border: 1px solid #b0a078;
 }
 
 #leftblock #menuleft {
@@ -51,12 +53,12 @@ a {
     margin-top: 83px;
     -margin-top: 89px;
     padding-left: 34px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 #leftblock h1 {
-    margin-top: 160px;
-    padding-left: 29px;
+    margin-top: 100px;
+    padding-left: 30px;
 }
 
 #leftblock ul {
@@ -64,25 +66,68 @@ a {
 }
 
 #leftblock ul li {
+    line-height: 25px;
+}
+
+#leftblock ul li ul li {
     line-height: 18px;
+}
+
+#leftblock ul li ul {
+    -margin-top: 12px;
+    margin-left: 14px;
+    font-size: 10px;
 }
 
 #leftblock li a:hover {
     color: white;
 }
 
-#centerblock_wild {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 1022px;
-    height: 748px;
-    z-index: 1;
+#leftblock .active>a {
+    color: white;
 }
 
-object {
-    width: 100%;
-    height: 100%;
+#centerblock {
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    width: 1026px;
+    height: 748px;
+    border-top: 1px solid #b0a078;
+    border-right: 1px solid #b0a078;
+}
+
+#centerleft {
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    width: 300px;
+    height: 300px;
+    background: #f3ecda url('majorisor.png') no-repeat top center;
+    border: 1px solid #9b421e;
+}
+
+.legende{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    color: #1c0c00;
+    font-weight: bold;
+}
+
+#caracteristique {
+    padding: 5px;
+    position: relative;
+    top: 150px;
+    left: 326px;
+    width: 300px;
+    background: #f3ecda;
+    border: 1px solid #9b421e;
+    color: #1c0c00;
+}
+
+.bag {
+    vertical-align: middle;
 }
 
 #footermenu {
@@ -92,10 +137,11 @@ object {
     left: 0px;
     width: 100%;
     height: 19px;
-    border-top: 1px solid #222;
-    background-color: black;
+    border: 1px solid #b0a078;
+    background-color: #1c0c00;
     line-height: 19px;
     text-align: center;
+    font-size: 10px;
 }
 
 #footermenu ul li {
@@ -107,4 +153,26 @@ object {
 
 #footermenu li a:hover {
     color: white;
+}
+
+.fb {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: #1c0c00 url('social_sprite.png') 0 -17px no-repeat;
+}
+.fb:hover {
+    background-position: 0 1px;
+}
+
+.twitter {
+    margin-left: 20px;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: #1c0c00 url('social_sprite.png') -20px -16px no-repeat;
+}
+
+.twitter:hover {
+    background-position: -20px 2px;
 }
